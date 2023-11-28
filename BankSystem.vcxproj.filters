@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Models">
+      <UniqueIdentifier>{d783c77a-8230-4801-bb0d-fa37a89cf583}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Models\Bank">
+      <UniqueIdentifier>{05370cce-1406-4ca7-9dac-093f590a8be6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Models\Bank\User">
+      <UniqueIdentifier>{de4d9efe-0550-4344-845a-71e121114307}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Models\Bank\Currency">
+      <UniqueIdentifier>{c3331627-eb44-4ca4-bfe9-f4b518db426a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Models\Bank\Client">
+      <UniqueIdentifier>{b8999df8-ede0-4947-9c2a-93cea10e783d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Screens">
+      <UniqueIdentifier>{9beab9ef-7e17-4a9f-9d48-cff58b91208f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Screens\Main Screen">
+      <UniqueIdentifier>{2c08788b-aa95-4a5e-8ba7-dcb5e83a405b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Screens\Main Screen\User">
+      <UniqueIdentifier>{0577ad4b-5f75-4d2d-b680-053a75c289b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Screens\Main Screen\Client">
+      <UniqueIdentifier>{2f627a68-aa1d-4bcb-b0e4-bb9559fc823a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Screens\Main Screen\Transactions">
+      <UniqueIdentifier>{f050c9ce-bcd5-490f-a1cb-05148104f42b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Screens\Main Screen\Communications">
+      <UniqueIdentifier>{86561783-3335-424b-9332-802ae7d8d793}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Screens\Main Screen\Communications\Communication Menu">
+      <UniqueIdentifier>{b62e64fd-d63f-4fb5-92d5-9e4b35871f80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Screens\Main Screen\Transactions\Transactions Menu">
+      <UniqueIdentifier>{66d6ee11-b781-42e3-a4ca-2b42f9523c56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Screens\Main Screen\Login">
+      <UniqueIdentifier>{329bcc38-bb70-4881-b852-a05bd345495a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Screens\Main Screen\Login Register">
+      <UniqueIdentifier>{a82c14f0-5378-4cbd-8d0e-184187c44f92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utility">
+      <UniqueIdentifier>{42740c59-ab50-4bff-8b93-4473ff4b996c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Screens\Main Screen\Currency">
+      <UniqueIdentifier>{247558cc-c4b6-4100-a861-fc17f5986a2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Screens\Main Screen\Currency\Currency Menu">
+      <UniqueIdentifier>{385fd561-c71e-409a-8cac-58564a188acf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BankSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Models\clsPerson.h">
+      <Filter>Header Files\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Models\Bank\Currency\clsCurrency.h">
+      <Filter>Header Files\Models\Bank\Currency</Filter>
+    </ClInclude>
+    <ClInclude Include="Models\Bank\Client\clsBankClient.h">
+      <Filter>Header Files\Models\Bank\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Models\Bank\User\clsUser.h">
+      <Filter>Header Files\Models\Bank\User</Filter>
+    </ClInclude>
+    <ClInclude Include="Screens\Main Menu\Client\clsAddNewClient.h">
+      <Filter>Header Files\Screens\Main Screen\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Screens\Main Menu\Client\clsDeleteClient.h">
+      <Filter>Header Files\Screens\Main Screen\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Screens\Main Menu\Client\clsFindClient.h">
+      <Filter>Header Files\Screens\Main Screen\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Screens\Main Menu\Client\clsShowClients.h">
+      <Filter>Header Files\Screens\Main Screen\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Screens\Main Menu\Client\clsUpdateClient.h">
+      <Filter>Header Files\Screens\Main Screen\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Screens\Main Menu\User\clsAddNewUser.h">
+      <Filter>Header Files\Screens\Main Screen\User</Filter>
+    </ClInclude>
+    <ClInclude Include="Screens\Main Menu\User\clsDeleteUser.h">
+      <Filter>Header Files\Screens\Main Screen\User</Filter>
+    </ClInclude>
+    <ClInclude Include="Screens\Main Menu\User\clsFindUser.h">
+      <Filter>Header Files\Screens\Main Screen\User</Filter>
+    </ClInclude>
+    <ClInclude Include="Screens\Main Menu\User\clsManageUsers.h">
+      <Filter>Header Files\Screens\Main Screen\User</Filter>
+    </ClInclude>
+    <ClInclude Include="Screens\Main Menu\User\clsUpdateUser.h">
+      <Filter>Header Files\Screens\Main Screen\User</Filter>
+    </ClInclude>
+    <ClInclude Include="Screens\Main Menu\User\clsUserList.h">
+      <Filter>Header Files\Screens\Main Screen\User</Filter>
+    </ClInclude>
+    <ClInclude Include="Screens\Main Menu\Communications\clsCommunicationScreen.h">
+      <Filter>Header Files\Screens\Main Screen\Communications</Filter>
+    </ClInclude>
+    <ClInclude Include="Screens\Main Menu\Communications\Communication Menu\clsClearEmailBox.h">
+      <Filter>Header Files\Screens\Main Screen\Communications\Communication Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Screens\Main Menu\Communications\Communication Menu\clsReceivedMailBox.h">
+      <Filter>Header Files\Screens\Main Screen\Communications\Communication Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Screens\Main Menu\Communications\Communication Menu\clsSendedMailBoxScreen.h">
+      <Filter>Header Files\Screens\Main Screen\Communications\Communication Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Screens\Main Menu\Communications\Communication Menu\clsSendEmailScreen.h">
+      <Filter>Header Files\Screens\Main Screen\Communications\Communication Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Screens\Main Menu\Transactions\clsTransactionsMenu.h">
+      <Filter>Header Files\Screens\Main Screen\Transactions</Filter>
+    </ClInclude>
+    <ClInclude Include="Screens\Main Menu\Transactions\Transcations Menu\clsDepositScreen.h">
+      <Filter>Header Files\Screens\Main Screen\Transactions\Transactions Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Screens\Main Menu\Transactions\Transcations Menu\clsTotalBalanceScreen.h">
+      <Filter>Header Files\Screens\Main Screen\Transactions\Transactions Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Screens\Main Menu\Transactions\Transcations Menu\clsTransferLogList.h">
+      <Filter>Header Files\Screens\Main Screen\Transactions\Transactions Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Screens\Main Menu\Transactions\Transcations Menu\clsTransferScreen.h">
+      <Filter>Header Files\Screens\Main Screen\Transactions\Transactions Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Screens\Main Menu\Transactions\Transcations Menu\clsWithdrawScreen.h">
+      <Filter>Header Files\Screens\Main Screen\Transactions\Transactions Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Screens\Main Menu\Login\clsLoginScreen.h">
+      <Filter>Header Files\Screens\Main Screen\Login</Filter>
+    </ClInclude>
+    <ClInclude Include="Screens\Main Menu\Login Register\clsLoginRegisterScreen.h">
+      <Filter>Header Files\Screens\Main Screen\Login Register</Filter>
+    </ClInclude>
+    <ClInclude Include="Screens\clsScreen.h">
+      <Filter>Header Files\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="Screens\Main Menu\clsMainMenu.h">
+      <Filter>Header Files\Screens\Main Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\clsDate.h">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\clsString.h">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\clsUtil.h">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\Global.h">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\clsInputValidate.h">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Screens\Main Menu\Currency\clsCurrencyExchangeScreen.h">
+      <Filter>Header Files\Screens\Main Screen\Currency</Filter>
+    </ClInclude>
+    <ClInclude Include="Screens\Main Menu\Currency\Currency Menu\clsCurrencyCalculator.h">
+      <Filter>Header Files\Screens\Main Screen\Currency\Currency Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Screens\Main Menu\Currency\Currency Menu\clsFindCurrencyScreen.h">
+      <Filter>Header Files\Screens\Main Screen\Currency\Currency Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Screens\Main Menu\Currency\Currency Menu\clsListCurrencies.h">
+      <Filter>Header Files\Screens\Main Screen\Currency\Currency Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Screens\Main Menu\Currency\Currency Menu\clsUpdateCurrencyRate.h">
+      <Filter>Header Files\Screens\Main Screen\Currency\Currency Menu</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
